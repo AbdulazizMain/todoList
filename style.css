@@ -1,0 +1,123 @@
+body{
+    user-select: none;
+    padding: 20px;
+}
+.con{
+    width: 80%;
+    background-color: snow;
+    padding: 40px 0px;
+    margin: auto;
+    box-shadow: 0px 0px 50px 2px coral;
+    border: none;
+    font-family: sans-serif;
+}
+.logo{
+    margin-left: 15px;
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    transition: 1s;
+    box-shadow: 0px 0px 20px 1px rgb(28, 131, 214);
+}
+.logo:hover{
+    box-shadow: 0px 0px 30px 10px rgba(28, 131, 204, 0.76);
+    transition: 1s;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;   
+}
+.buck{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: rgb(167, 167, 167);
+    font-weight: 200;
+}
+.boock strong{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    border-bottom: solid coral 2px;
+    color: coral;
+    padding: 0px 10px;
+}
+table{
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    color: rgb(109, 109, 109);
+}
+.inputs{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.inputs input{
+    width: 88%;
+    border: none;
+    padding: 10px 10px;
+    font-family: sans-serif;
+    border: solid 1px rgb(109, 109, 109);
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.inputs button{
+    width: 90%;
+    background-color: coral;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    margin: auto;
+    font-size: 18px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+td{
+    padding: 15px 0 10px 0;
+    border-bottom: solid rgb(156, 156, 156) 2px;
+    color: #555555;
+    font-weight: 700;
+}
+th{
+    padding: 15px 0 10px 20px;
+    border-bottom: solid rgb(156, 156, 156) 2px;
+    background-color: rgb(211, 211, 211);
+    text-align: left;
+}
+.none{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    color: #1212126e;
+    text-align: center;
+    border: solid #1212126e;
+    border-radius: 10px;
+    display: none;
+}
+@media (max-width:762px){
+    .inputs{
+        position: relative;
+        left: 48px;
+    }
+    table{
+        position: relative;
+        left: 48px; 
+    }
+    th{
+        padding: 10px;
+    }
+    
+}
+@media (max-width:454px){
+    .con{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+}
